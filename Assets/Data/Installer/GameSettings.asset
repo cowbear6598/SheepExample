@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de79ffd8a0224c6eb29a574967965db0, type: 3}
+  m_Name: GameSettings
+  m_EditorClassIdentifier: 
+  gameSettings:
+    scoreSettings:
+      score: 500
+  cardSettings:
+    typeSettings:
+      cardSprites:
+      - {fileID: -187540334, guid: 298465cbbcbd533469fbe011d34d6ba8, type: 3}
+      - {fileID: 1165577119, guid: 298465cbbcbd533469fbe011d34d6ba8, type: 3}
+      - {fileID: 200967028, guid: 298465cbbcbd533469fbe011d34d6ba8, type: 3}
+      - {fileID: 1995964319, guid: 298465cbbcbd533469fbe011d34d6ba8, type: 3}
+      - {fileID: 868124808, guid: 298465cbbcbd533469fbe011d34d6ba8, type: 3}
+      - {fileID: 1289453400, guid: 298465cbbcbd533469fbe011d34d6ba8, type: 3}
+      - {fileID: 406887775, guid: 298465cbbcbd533469fbe011d34d6ba8, type: 3}
+      - {fileID: -1476391001, guid: 298465cbbcbd533469fbe011d34d6ba8, type: 3}
+      - {fileID: -2239342, guid: 298465cbbcbd533469fbe011d34d6ba8, type: 3}
+      - {fileID: -399809629, guid: 298465cbbcbd533469fbe011d34d6ba8, type: 3}
+      - {fileID: -619625459, guid: 298465cbbcbd533469fbe011d34d6ba8, type: 3}
+      - {fileID: -630215467, guid: 298465cbbcbd533469fbe011d34d6ba8, type: 3}
+      - {fileID: -256427902, guid: 298465cbbcbd533469fbe011d34d6ba8, type: 3}
+      - {fileID: -1618745260, guid: 298465cbbcbd533469fbe011d34d6ba8, type: 3}
+      - {fileID: 1844073006, guid: 298465cbbcbd533469fbe011d34d6ba8, type: 3}
+      - {fileID: -1595470511, guid: 298465cbbcbd533469fbe011d34d6ba8, type: 3}
+  holderSettings:
+    cardSettings:
+      totalCount: 7
+      padding: 1.125
+  levelSettings:
+    levelSettings:
+      levelAssets:
+      - m_AssetGUID: f79c8be2059943a499f8d323c9534be5
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0
+      - m_AssetGUID: a24021b22fb8f714097222d56a6c2c9f
+        m_SubObjectName: 
+        m_SubObjectType: 
+        m_EditorAssetChanged: 0

@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Audio
+  m_EditorClassIdentifier: 
+  m_GroupName: Audio
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 2ba920327b399e14bbb8917a2dc03b11
+  m_SerializeEntries:
+  - m_GUID: 4eac2a12075bc444090f4b98b177b96a
+    m_Address: BGM_Game_A
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - sound
+  - m_GUID: 2b996dfd3cfb0f544a06fa4c2b31b2dd
+    m_Address: BGM_Game_B
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - sound
+  - m_GUID: b5be8ec2215582f4badbe2570036a5c6
+    m_Address: BGM_Lobby
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - sound
+  - m_GUID: ac3e6a394a1abfb4eaa66fcf614693b5
+    m_Address: Button_Cancel
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - sound
+  - m_GUID: ffb9b3485157c254db25f584fa9a03c8
+    m_Address: Windows_Disappear
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - sound
+  - m_GUID: 5d2e546a6e1b639468009d1092b61181
+    m_Address: Card_Get
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - sound
+  - m_GUID: 011ff155f3301b343862c4d0f5243d69
+    m_Address: Game_Victory
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - sound
+  - m_GUID: 7393a4c31442a524d96d96afb2f70663
+    m_Address: Button_Start
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - sound
+  - m_GUID: 718bb3551e8853749823f5bf88c4fdaf
+    m_Address: Card_Upset
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - sound
+  - m_GUID: 8343ce15c13e80e4d89eabd586705249
+    m_Address: Button_Confirm
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - sound
+  - m_GUID: e19569da5a1519842b9e591c175dffb0
+    m_Address: Game_Lose
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - sound
+  - m_GUID: 28ca6e12f0021ec41a484820a8243091
+    m_Address: Windows_Appear
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - sound
+  - m_GUID: 4515362b08f30cb40b3244455e73a55d
+    m_Address: Card_Eliminate
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - sound
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 30cdfe27c1cab4842b2d38675951c5a4, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: de87ca4cbd9d62d4e8b4f5b9c6e9542a, type: 2}
+    - {fileID: 11400000, guid: 0d08d16bd5fb78843b974a4d2df5b745, type: 2}
