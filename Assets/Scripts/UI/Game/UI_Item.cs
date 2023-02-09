@@ -44,8 +44,6 @@ namespace UI.Game
         [SerializeField] private ItemBtn rollbackItem;
         [SerializeField] private ItemBtn shuffleItem;
 
-        [SerializeField] private Sprite[] btnSprites;
-
         public void Button_Use(int index)
         {
             soundService.DoPlaySound(clip_Click);
