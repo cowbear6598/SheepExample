@@ -20,12 +20,10 @@ namespace UI
 
         [SerializeField] private Slider          bgmSlider;
         [SerializeField] private Image           bgmIconImg;
-        [SerializeField] private Sprite[]        bgmIconSprites;
         [SerializeField] private TextMeshProUGUI bgmVolumeText;
 
         [SerializeField] private Slider          effectSlider;
         [SerializeField] private Image           effectIconImg;
-        [SerializeField] private Sprite[]        effectIconSprites;
         [SerializeField] private TextMeshProUGUI effectVolumeText;
 
         [SerializeField] private AssetReferenceT<AudioClip> clip_Confirm;
@@ -47,10 +45,9 @@ namespace UI
 
         private void SetBGMVolume(float volume)
         {
-            float dB = settingHandler.SetBGMVolume(volume);
+            settingHandler.SetBGMVolume(volume);
 
             bgmVolumeText.text = ((int)((volume - bgmSlider.minValue) / (bgmSlider.maxValue - bgmSlider.minValue) * 100)).ToString();
-            bgmIconImg.sprite  = bgmIconSprites[Mathf.Approximately(dB, -80) ? 0 : 1];
         }
 
         public void Slider_Effect(float volume)
@@ -60,10 +57,9 @@ namespace UI
 
         private void SetEffectVolume(float volume)
         {
-            float dB = settingHandler.SetEffectVolume(volume);
+            settingHandler.SetEffectVolume(volume);
 
             effectVolumeText.text = ((int)((volume - effectSlider.minValue) / (effectSlider.maxValue - effectSlider.minValue) * 100)).ToString();
-            effectIconImg.sprite  = effectIconSprites[Mathf.Approximately(dB, -80) ? 0 : 1];
         }
         
         public void Button_Open()

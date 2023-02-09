@@ -14,9 +14,9 @@ namespace Game
 {
     public class GameLevelHandler : IInitializable, IDisposable
     {
-        [Inject] private readonly ISceneService sceneService;
-
+        [Inject] private readonly ISceneService    sceneService;
         [Inject] private readonly DiContainer      container;
+        
         [Inject] private readonly CardRegistry     cardRegistry;
         [Inject] private readonly GameOverHandler  overHandler;
         [Inject] private readonly GameStateHandler stateHandler;
@@ -32,9 +32,7 @@ namespace Game
 
         public async void Initialize()
         {
-            currentLevel = Random.Range(0, settings.levelAssets.Length);
-                            
-            levelObj = await Addressables.LoadAssetAsync<GameObject>(settings.levelAssets[currentLevel]).Task;
+            levelObj = await Addressables.LoadAssetAsync<GameObject>(settings.levelAssets[Random.Range(0, settings.levelAssets.Length)]).Task;
 
             levelGroupTrans = container.InstantiatePrefab(levelObj).transform;
             levelView       = levelGroupTrans.GetComponent<LevelView>();

@@ -33,16 +33,10 @@ namespace UI.Game
         private class ItemBtn
         {
             [SerializeField] private Button btn;
-            [SerializeField] private Image  btnImg;
-            [SerializeField] private Image  iconImg;
 
-            public void Use(Sprite sprite)
+            public void Use()
             {
                 btn.interactable = false;
-                
-                btnImg.sprite = sprite;
-                
-                iconImg.color = Color.white;
             }
         }
 
@@ -88,15 +82,15 @@ namespace UI.Game
             {
                 case ItemType.Pull:
                     holderService.DoPull();
-                    pullItem.Use(btnSprites[0]);
+                    pullItem.Use();
                     break;
                 case ItemType.Rollback:
                     holderService.DoRollback();
-                    rollbackItem.Use(btnSprites[0]);
+                    rollbackItem.Use();
                     break;
                 case ItemType.Shuffle:
                     gameService.DoShuffleLevel();
-                    shuffleItem.Use(btnSprites[0]);
+                    shuffleItem.Use();
                     soundService.DoPlaySound(clip_Random);
                     break;
             }

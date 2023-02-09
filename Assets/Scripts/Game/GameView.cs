@@ -16,8 +16,6 @@ namespace Game
         [SerializeField] private AssetReferenceT<AudioClip>[] clip_BGM;
         [SerializeField] private AssetReferenceT<AudioClip>[] clip_Over;
 
-        [SerializeField] private ParticleSystem winParticle;
-
         private void Start()
         {
             Application.targetFrameRate = 60;
@@ -47,8 +45,6 @@ namespace Game
         public void PlayLevelPassSound() => soundService.DoPlaySound(clip_Over[1]);
 
         public void PlayGameOverSound(bool IsVictory) => soundService.DoPlaySound(clip_Over[IsVictory ? 1 : 0]);
-
-        public void PlayWinParticle() => winParticle.Play();
 
         private void OnApplicationPause(bool IsPause) => timeHandler.Pause(IsPause);
     }

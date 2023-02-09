@@ -15,9 +15,6 @@ namespace Game
             stateHandler.ChangeState(GameState.GameOver);
             view.PlayGameOverSound(IsVictory);
 
-            if (IsVictory)
-                view.PlayWinParticle();
-
             var score       = scoreHandler.GetScore();
             var elapsedTime = timeHandler.GetElapsedTime();
 

@@ -18,22 +18,22 @@ MonoBehaviour:
   cardSettings:
     typeSettings:
       cardSprites:
-      - {fileID: -187540334, guid: 298465cbbcbd533469fbe011d34d6ba8, type: 3}
-      - {fileID: 1165577119, guid: 298465cbbcbd533469fbe011d34d6ba8, type: 3}
-      - {fileID: 200967028, guid: 298465cbbcbd533469fbe011d34d6ba8, type: 3}
-      - {fileID: 1995964319, guid: 298465cbbcbd533469fbe011d34d6ba8, type: 3}
-      - {fileID: 868124808, guid: 298465cbbcbd533469fbe011d34d6ba8, type: 3}
-      - {fileID: 1289453400, guid: 298465cbbcbd533469fbe011d34d6ba8, type: 3}
-      - {fileID: 406887775, guid: 298465cbbcbd533469fbe011d34d6ba8, type: 3}
-      - {fileID: -1476391001, guid: 298465cbbcbd533469fbe011d34d6ba8, type: 3}
-      - {fileID: -2239342, guid: 298465cbbcbd533469fbe011d34d6ba8, type: 3}
-      - {fileID: -399809629, guid: 298465cbbcbd533469fbe011d34d6ba8, type: 3}
-      - {fileID: -619625459, guid: 298465cbbcbd533469fbe011d34d6ba8, type: 3}
-      - {fileID: -630215467, guid: 298465cbbcbd533469fbe011d34d6ba8, type: 3}
-      - {fileID: -256427902, guid: 298465cbbcbd533469fbe011d34d6ba8, type: 3}
-      - {fileID: -1618745260, guid: 298465cbbcbd533469fbe011d34d6ba8, type: 3}
-      - {fileID: 1844073006, guid: 298465cbbcbd533469fbe011d34d6ba8, type: 3}
-      - {fileID: -1595470511, guid: 298465cbbcbd533469fbe011d34d6ba8, type: 3}
+      - {fileID: 21300000, guid: cf564ae225ebe5240ae6df13ed3fdc8a, type: 3}
+      - {fileID: 21300000, guid: a69dbf666d2d907428b0326d5f107c72, type: 3}
+      - {fileID: 21300000, guid: 64aa43ba88dfa6045af61fa375c1935e, type: 3}
+      - {fileID: 21300000, guid: 53bf30fec585b8744ae0617b01cbc398, type: 3}
+      - {fileID: 21300000, guid: d8c1e54111c4abb4cb49c471967603e0, type: 3}
+      - {fileID: 21300000, guid: 3e9e785b19c37604c958fa6a1159aa7b, type: 3}
+      - {fileID: 21300000, guid: 6191d6301db94204f9a6ed59477376ff, type: 3}
+      - {fileID: 21300000, guid: 543a1ab8be0ed964b96c4788be3ee3ce, type: 3}
+      - {fileID: 21300000, guid: b3ec12e112a66ab4684ce4b5547e1ed4, type: 3}
+      - {fileID: 21300000, guid: edb285a36258c6049b58a828db040ece, type: 3}
+      - {fileID: 21300000, guid: 7c7891f6b84e5914eb5199047f81adf7, type: 3}
+      - {fileID: 21300000, guid: 01f57abd88979e74ba9e31b03c9cc0f7, type: 3}
+      - {fileID: 21300000, guid: f075c020d635a1042949f2f832abeb8c, type: 3}
+      - {fileID: 21300000, guid: 9093f9b1f6ba68f47a7826947d3d4c11, type: 3}
+      - {fileID: 21300000, guid: b463e49baf2745f41acd0869f3000f83, type: 3}
+      - {fileID: 21300000, guid: 672291b44d99f3a4e8093f9da5c0ed4e, type: 3}
   holderSettings:
     cardSettings:
       totalCount: 7

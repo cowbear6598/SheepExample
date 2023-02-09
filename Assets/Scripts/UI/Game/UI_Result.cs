@@ -18,7 +18,6 @@ namespace UI.Game
         private CanvasGroup canvasGroup;
 
         [SerializeField] private RectTransform   bgTrans;
-        [SerializeField] private GameObject[]    titleObjs;
         [SerializeField] private TextMeshProUGUI timeText;
         [SerializeField] private TextMeshProUGUI scoreText;
 
@@ -50,7 +49,6 @@ namespace UI.Game
         {
             canvasGroup.interactable = canvasGroup.blocksRaycasts = true;
 
-            titleObjs[e.IsVictory ? 1 : 0].SetActive(true);
             timeText.text  = $"{(e.time / 60 / 60):00}:{(e.time / 60 % 60):00}:{(e.time % 60):00}";
             scoreText.text = e.score.ToString();
             
