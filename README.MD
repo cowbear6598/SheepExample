@@ -13,4 +13,4 @@
 
 ## Gameplay
 
-![image](https://github.com/cowbear6598/SheepExample/Gameplay.gif)
+![image](https://github.com/cowbear6598/SheepExample/blob/master/Gameplay.gif)
